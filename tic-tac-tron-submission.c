@@ -7,12 +7,12 @@
 // motorD is sideways movement of stamping arm
 
 // CONSTANTS:
-const float CELL_RIGHT = 560.0 / 3.0;								// moves to the next cell on the right
-const float COLOUR_DOWN = 119;										// make speed positive to go down
-const float STAMP_DOWN = 141;										// distance for stamping
-const float BACK_WHEEL_CIRCUMF = 2 * PI * 4.4;						// measurement of back tractor wheel (in cm)
+const float CELL_RIGHT = 560.0 / 3.0;					// moves to the next cell on the right
+const float COLOUR_DOWN = 119;						// make speed positive to go down
+const float STAMP_DOWN = 141;						// distance for stamping
+const float BACK_WHEEL_CIRCUMF = 2 * PI * 4.4;				// measurement of back tractor wheel (in cm)
 const float CELL_WIDTH = (3.0 / BACK_WHEEL_CIRCUMF) * 360.0;		// enough distance to move up a cell
-const float RETURN_REST = ((2 * 3.2) / BACK_WHEEL_CIRCUMF) * 360.0; // moves robot out of way for human to play
+const float RETURN_REST = ((2 * 3.2) / BACK_WHEEL_CIRCUMF) * 360.0; 	// moves robot out of way for human to play
 const float MOVE_START = (0.5 * 5.5 / BACK_WHEEL_CIRCUMF) * 360.0;	// move back distance for makeMove function
 
 // GLOBAL 2D ARRAYS:
