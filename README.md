@@ -99,6 +99,7 @@
 ## 👨‍💻 Authors
 
 Built and programmed by **Behzad Waseem, Ben Tran, Shilo Jeyarajasingam, & Parsa Ahmadi** using LEGO EV3 and RobotC for the MTE100 course at UWaterloo.
+
 🚨 Btw if you're taking MTE100, do NOT use this code for your project; you will be caught for plagarism!
 
 ---
