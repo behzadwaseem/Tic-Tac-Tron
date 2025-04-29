@@ -90,8 +90,9 @@
 
 ![Tic Tac Tron Photo](https://github.com/user-attachments/assets/86e4175e-8c26-473e-84bf-95300acbd6e6)
 ![Tic Tac Tron Photo 2](https://github.com/user-attachments/assets/50c49e09-6e9b-42e5-a3b5-90846127bf36)
+(^btw the chopstick was not in the final version... we just used it while our actual part was 3D printing 😅)
 
-[Us fooling around with the prototype](https://youtube.com/shorts/Xm68uUlmOJA?feature=share)
+[🤳 Us fooling around with the prototype](https://youtube.com/shorts/Xm68uUlmOJA?feature=share)
 
 ---
 
