@@ -1,6 +1,6 @@
 # 🤖 Tic-Tac-Tron
 
-**Tic-Tac-Tron** is a LEGO EV3 robot programmed in [RobotC](https://www.robotc.net/), designed to play an interactive game of Tic-Tac-Toe against a human opponent. It uses a color sensor to scan the board for moves and a stamping mechanism to physically mark its move on the game grid. Think you're smart? This bot's here to outplay you—mechanically.
+**Tic-Tac-Tron** is a LEGO EV3 robot programmed in [RobotC](https://www.robotc.net/) (very similar to C++), designed to play an interactive game of Tic-Tac-Toe against a human opponent. It uses a color sensor to scan the board for moves and a stamping mechanism to physically mark its move on the game grid. Think you're smart? This bot's here to outplay you—mechanically.
 
 ---
 
