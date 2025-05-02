@@ -19,23 +19,23 @@ const float MOVE_START = (0.5 * 5.5 / BACK_WHEEL_CIRCUMF) * 360.0;	// move back 
 
 // 2D BOARD ARRAY: (records the game state as the game progresses)
 int board[3][3] = {{0, 0, 0},
-				   {0, 0, 0},
-				   {0, 0, 0}};
+		   {0, 0, 0},
+		   {0, 0, 0}};
 // 2D POSSIBLE MOVES ARRAY (keeps track of the free cells where moves can be made)
 int possibleMoves[9][2] = {{-2, -2},
-						   {-2, -2},
-						   {-2, -2},
-						   {-2, -2},
-						   {-2, -2},
-						   {-2, -2},
-						   {-2, -2},
-						   {-2, -2},
-						   {-2, -2}};
+			   {-2, -2},
+			   {-2, -2},
+			   {-2, -2},
+			   {-2, -2},
+			   {-2, -2},
+			   {-2, -2},
+			   {-2, -2},
+			   {-2, -2}};
 
 void clearScreen()
 {
 	/*
-		Clears all lines on the robot's display.
+		HELPER FUNCTION - Clears all lines on the robot's display.
 	*/
 	for (int i = 1; i <= 9; i++)
 	{
@@ -60,7 +60,7 @@ void stopAllTasks(string message)
 void moveMotor(int speed, int encoderCounts, tMotor specifiedMotor)
 {
 	/*
-		1. HELPER FUNCTION - Moves the specified motor at the desired speed and for the desired encoderCounts (distance).
+		1. Moves the specified motor at the desired speed and for the desired encoderCounts (distance).
 	*/
 	nMotorEncoder[specifiedMotor] = 0;
 	motor[specifiedMotor] = speed;
